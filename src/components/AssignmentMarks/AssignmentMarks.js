@@ -51,7 +51,7 @@ const AssignmentMarks = () => {
     return (
       <div>
         <LineChart width={500} height={400} data={data}>
-          <Line type="monotone" dataKey="marks" stroke="#82ca9d" />
+          <Line type="monotone" dataKey="marks" stroke="#8884d8" />
           <XAxis dataKey="name"></XAxis>
           <YAxis></YAxis>
           <Tooltip></Tooltip>
